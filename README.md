@@ -32,6 +32,7 @@ Select newspapers, social platforms, one or more topics, or add comma-separated 
 
 ## Source coverage
 
-The outlet and platform choices guide Gemini's Google Search grounding; they are search preferences, not a guarantee that each selected site will appear in every result. Social sources are limited to publicly indexed posts/pages, not private or login-only feeds. Google Search grounding availability, quota, and pricing depend on your Gemini API project and model. The default model is `gemini-2.5-flash` and can be changed in `news_service.py`.
+The outlet and platform choices guide Gemini's Google Search grounding; they are search preferences, not a guarantee that each selected site will appear in every result. Social sources are limited to publicly indexed posts/pages, not private or login-only feeds. Google Search grounding availability, quota, and pricing depend on your Gemini API project and model. The default model is `gemini-3.8-flash` and can be changed in `news_service.py`. The app uses the Gemini Interactions API with Google Search grounding.
 
 The source catalog is in `source_catalog.py`; Gemini integration and citation extraction are in `news_service.py`; the Streamlit interface is in `app.py`.
+
